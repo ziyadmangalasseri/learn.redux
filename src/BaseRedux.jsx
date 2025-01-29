@@ -9,6 +9,7 @@ function Counter(props) {
   const {value,incriment,decriment} = props
   return (
     <div>
+      <p>Base Redux</p>
       <button onClick={incriment}>incriment</button>
       <h3>{value}</h3>
       <button onClick={decriment}>decriment</button>
